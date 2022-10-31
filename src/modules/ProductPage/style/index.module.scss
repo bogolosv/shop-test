@@ -1,0 +1,21 @@
+.image{
+  border-radius: 0 0 0 50px;
+  height: 455px;
+  width: calc(100% - 50px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  position: relative;
+  box-shadow: 0 0 20px -15px;
+}
+
+.title{
+  color: var(--black-40);
+}
+
+.backButton{
+  position: absolute;
+  left: -34px;
+  top: 16px;
+}

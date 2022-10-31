@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  --orange-120: #E87928;
+  --orange-100: #FF8B37;
+  --orange-80: #FFAC70;
+  --orange-5: #FFF3EB;
+
+  --green-100: #47D867;
+  --green-5: #E6FAEA;
+
+  --red-100: #EB5757;
+  --red-5: #FDEEED;
+
+  --black-100: #1C1C21;
+  --black-80: #2f2f36;
+  --black-60: #484848;
+  --black-40: #999999;
+  --black-5: #F5F5F7;
+
+  --white-100: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  background: var(--black-5);
+  color: var(--black-100);
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+  margin: unset;
+}
+
+a{
+  text-decoration: unset;
+  color: black;
+}
+
+label{
+  color: var(--black-60);
+  padding-left: 10px;
+}
+
+input{
+  padding: 10px;
+  color: var(--black-100);
+  outline: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  border: unset;
+  box-shadow: 0 0 15px -10px;
+}

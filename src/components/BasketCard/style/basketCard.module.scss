@@ -1,0 +1,22 @@
+.container{
+  border-top: 1px #dcdcdc solid;
+}
+
+.image{
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+}
+
+.title{
+  color: var(--black-40);
+}
+
+.count{
+  text-align: center;
+  width: 30px;
+}

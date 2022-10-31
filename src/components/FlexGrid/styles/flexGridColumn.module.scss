@@ -1,0 +1,47 @@
+.flexGridColumn {
+	flex: 0 1 auto;
+}
+
+.flexGridColumn_start {
+	margin-right: auto;
+}
+
+.flexGridColumn_end {
+	margin-left: auto;
+}
+
+.flexGridColumn_vrStart {
+	margin-bottom: auto;
+}
+
+.flexGridColumn_vrEnd {
+	margin-top: auto;
+}
+
+.flexGridColumn_grow {
+	flex-grow: 1;
+}
+
+.flexGridColumn_noGrow {
+	flex-grow: 0;
+}
+
+.flexGridColumn_shrink {
+	flex-shrink: 1;
+}
+
+.flexGridColumn_noShrink {
+	flex-shrink: 0;
+}
+
+.flexGridColumn_basis50 {
+	flex-basis: 50%;
+}
+
+.flexGridColumn_basis100 {
+	flex-basis: 100%;
+}
+
+.flexGridColumn_wrappedText {
+	min-width: 1px;
+}

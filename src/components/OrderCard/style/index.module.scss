@@ -1,0 +1,15 @@
+.background{
+  background: var(--white-100);
+}
+
+.status{
+  text-align: center;
+
+  &_inProgres{
+    color: var(--red-100);
+  }
+
+  &_done{
+    color: var(--green-100);
+  }
+}

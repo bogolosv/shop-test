@@ -1,0 +1,22 @@
+.image{
+  border-radius: 50px;
+  height: 80px;
+  width: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  box-shadow: 0 0 20px -15px;
+}
+
+.name{
+  font-size: 22px;
+}
+
+.email{
+  color: var(--black-40);
+}
+
+.orders{
+  text-align: center;
+}

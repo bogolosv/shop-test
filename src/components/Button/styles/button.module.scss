@@ -1,0 +1,55 @@
+.button{
+  border-radius: 8px;
+  border: 0;
+  text-align: center;
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 116%;
+  transition: .3s;
+
+  &_default{
+    box-shadow: 0 10px 20px rgba(48, 48, 48, 0.25);
+    padding: 12px 24px;
+    max-width: 296px;
+    min-width: 296px;
+    background: var(--black-100);
+    color: var(--white-100);
+  }
+
+  &_light{
+    background: var(--white-100);
+    color: var(--black-100);
+    padding: 12px 15px;
+
+    &:hover{
+      background: var(--orange-5)!important;
+      color: var(--black-100)!important;
+    }
+  }
+
+  &:hover{
+    background: var(--black-80);
+    color: var(--white-100);
+  }
+
+  &:active{
+    background: var(--black-60);
+  }
+
+  &_loading{
+    background: var(--black-40);
+    cursor: default;
+
+    &:hover{
+      background: var(--black-40);
+    }
+  }
+}
+
+.fullSize{
+  max-width: unset;
+  width: 100%;
+}

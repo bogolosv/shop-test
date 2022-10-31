@@ -1,0 +1,266 @@
+.paddingBox {
+	box-sizing: border-box;
+}
+
+.paddingBox_inline {
+	display: inline;
+}
+
+.paddingBox_tiny {
+	padding: 8px;
+}
+
+.paddingBox_hrTiny {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.paddingBox_vrTiny {
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+.paddingBox_topTiny {
+	padding-top: 8px;
+}
+
+.paddingBox_rightTiny {
+	padding-right: 8px;
+}
+
+.paddingBox_bottomTiny {
+	padding-bottom: 8px;
+}
+
+.paddingBox_leftTiny {
+	padding-left: 8px;
+}
+
+.paddingBox_hrSiblingTiny + .paddingBox_hrSiblingTiny {
+	padding-left: 8px;
+}
+
+.paddingBox + .paddingBox_vrSiblingTiny {
+	padding-top: 8px;
+}
+
+.paddingBox_scanty {
+	padding: 4px;
+}
+
+.paddingBox_hrScanty {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.paddingBox_vrScanty {
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+.paddingBox_topScanty {
+	padding-top: 4px;
+}
+
+.paddingBox_rightScanty {
+	padding-right: 4px;
+}
+
+.paddingBox_bottomScanty {
+	padding-bottom: 4px;
+}
+
+.paddingBox_leftScanty {
+	padding-left: 4px;
+}
+
+.paddingBox_small {
+	padding: 16px;
+}
+
+.paddingBox_hrSmall {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.paddingBox_vrSmall {
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+
+.paddingBox_topSmall {
+	padding-top: 16px;
+}
+
+.paddingBox_rightSmall {
+	padding-right: 16px;
+}
+
+.paddingBox_bottomSmall {
+	padding-bottom: 16px;
+}
+
+.paddingBox_leftSmall {
+	padding-left: 16px;
+}
+
+.paddingBox_hrSiblingSmall + .paddingBox_hrSiblingSmall {
+	padding-left: 16px;
+}
+
+.paddingBox + .paddingBox_vrSiblingSmall {
+	padding-top: 16px;
+}
+
+.paddingBox_normal {
+	padding: 24px;
+}
+
+.paddingBox_hrNormal {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.paddingBox_vrNormal {
+	padding-bottom: 24px;
+	padding-top: 24px;
+}
+
+.paddingBox_topNormal {
+	padding-top: 24px;
+}
+
+.paddingBox_rightNormal {
+	padding-right: 24px;
+}
+
+.paddingBox_bottomNormal {
+	padding-bottom: 24px;
+}
+
+.paddingBox_leftNormal {
+	padding-left: 24px;
+}
+
+.paddingBox_hrSiblingNormal + .paddingBox_hrSiblingNormal {
+	padding-left: 24px;
+}
+
+.paddingBox + .paddingBox_vrSiblingNormal {
+	padding-top: 24px;
+}
+
+.paddingBox_medium {
+	padding: 32px;
+}
+
+.paddingBox_hrMedium {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.paddingBox_vrMedium {
+	padding-bottom: 32px;
+	padding-top: 32px;
+}
+
+.paddingBox_topMedium {
+	padding-top: 32px;
+}
+
+.paddingBox_rightMedium {
+	padding-right: 32px;
+}
+
+.paddingBox_bottomMedium {
+	padding-bottom: 32px;
+}
+
+.paddingBox_leftMedium {
+	padding-left: 32px;
+}
+
+.paddingBox_hrSiblingMedium + .paddingBox_hrSiblingMedium {
+	padding-left: 32px;
+}
+
+.paddingBox + .paddingBox_vrSiblingMedium {
+	padding-top: 32px;
+}
+
+
+.paddingBox_large {
+	padding: 40px;
+}
+
+.paddingBox_hrLarge {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.paddingBox_vrLarge {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.paddingBox_topLarge {
+	padding-top: 40px;
+}
+
+.paddingBox_rightLarge {
+	padding-right: 40px;
+}
+
+.paddingBox_bottomLarge {
+	padding-bottom: 40px;
+}
+
+.paddingBox_hrSiblingLarge + .paddingBox_hrSiblingLarge {
+	padding-left: 40px;
+}
+
+.paddingBox + .paddingBox_vrSiblingLarge {
+	padding-top: 40px;
+}
+
+.paddingBox_leftLarge {
+	padding-left: 40px;
+}
+
+.paddingBox_extraLarge {
+	padding: 48px;
+}
+
+.paddingBox_hrExtraLarge {
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+.paddingBox_vrExtraLarge {
+	padding-bottom: 48px;
+	padding-top: 48px;
+}
+
+.paddingBox_topExtraLarge {
+	padding-top: 48px;
+}
+
+.paddingBox_rightExtraLarge {
+	padding-right: 48px;
+}
+
+.paddingBox_bottomExtraLarge {
+	padding-bottom: 48px;
+}
+
+.paddingBox_leftExtraLarge {
+	padding-left: 48px;
+}
+
+.paddingBox_hrSiblingExtraLarge + .paddingBox_hrSiblingExtraLarge {
+	padding-left: 48px;
+}
+
+.paddingBox + .paddingBox_vrSiblingExtraLarge {
+	padding-top: 48px;
+}
